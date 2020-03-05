@@ -1,0 +1,13 @@
+android {
+            defaultConfig {
+                applicationId = "org.nativescript.playvue"
+
+                if (false) {
+                    minSdkVersion = false
+                }
+
+                if (false) {
+                    targetSdkVersion = false
+                }
+            }
+        }

@@ -1,0 +1,231 @@
+/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme.
+The imported CSS rules must precede all other types of rules.
+*/
+@import '~nativescript-theme-core/css/core.light.css';
+
+
+#searchField {
+	placeholder-color: white;
+}
+
+.btn {
+	font-size: 18;
+}
+
+.actionBarContainer{
+	width: 100%;
+	float:left;
+
+}
+
+.convFriendName{
+	font-weight: bold;
+	font-size: 19;
+}
+
+.convDateOut{
+	font-size: 15;
+	text-align: center;
+}
+
+.convTextOut{
+	font-size: 15;
+	margin-top: 8;
+}
+
+.notRead{
+	color: #000;
+	font-weight: bold;
+}
+
+.read{
+	color:#6C6C6C;
+}
+
+.conImg{
+	width: 60;
+	height: 60;
+	border-radius:30;
+}
+
+.header{
+	background: #1aa3ff;
+}
+
+.aboutRow{
+	margin-top:10;
+}
+
+.postTitle{
+	font-size: 17;
+	height: 20;
+	color:#000;
+}
+
+.drawerItemText{
+	font-size: 19;
+	color: #000;
+	height: 22;
+}
+
+.sideDrawerContainer{
+	background: #fff;
+}
+
+.profilePic{
+	width:150;
+	height:150;
+	border-radius:100;
+	margin:20;
+	border-color: #4db8ff;
+	border-width: 1;
+}
+
+.postContainer{
+	margin-top: 10;
+	background: #fff;
+}
+
+.aboutContainer{
+	width:85%;
+	border-radius:15;
+	background: #eeeeee;
+	margin-top: 20;
+	padding-top:20;
+	padding-bottom: 20;
+	padding-left: 20;
+	padding-right: 20;
+}
+
+.postDateSmall{
+	font-size:14;
+	margin-left:10;
+	color:#858585;
+}
+
+.postAuthotName{
+	font-size: 17;
+	color: #000;
+	margin-left:10;
+	margin-top:2;
+}
+
+.postImageSmall{
+	width: 40;
+	height: 40;
+	border-radius:40;
+	border-width:0.5;
+	border-color:#c4c4c4; 
+}
+
+.listImage{
+	border-width: 1;
+	border-color: #fff;
+}
+
+.notification{
+	background: red;
+	width:25;
+	height: 25;
+	margin-top: 8%;
+	margin-left: 25;
+	border-radius:30;
+	z-index:100;
+	color: #fff;
+	font-size: 13;
+}
+
+.notificationAndroid{
+	background: red;
+	width:22;
+	height: 22;
+	margin-top: 12%;
+	margin-left: 25;
+	border-radius:30;
+	z-index:100;
+	color: #fff;
+	font-size: 13;
+	padding-top: 1;
+}
+
+.navItem{
+	width:24%;
+	text-align: center;
+}
+
+.followersTxt{
+	text-align: center;
+	font-size: 14;
+	height:20;
+}
+
+.followersTxtValue{
+	text-align: center;
+	margin-top: 10;
+	height:25;
+	font-size: 22;
+	font-weight: bold;
+	color:#000;
+
+}
+
+.followersContainer{
+	width:90%
+}
+
+.HLeft{
+	width: 10%;
+	float: left;
+	border:1px solid red;
+	margin-left: 5.5%;
+}
+.HMid{
+	width:70%;
+}
+.HRight{
+	width:19%;
+}
+
+.searchField{
+	border-bottom-width: 1;
+	border-bottom-color: #fff;
+	height:40;
+ text-decoration: none;
+}
+
+.font-awesome {
+	font-family: "FontAwesome";
+}
+.home-panel{
+	vertical-align: center;
+	font-size: 20;
+	margin: 15;
+}
+
+.description-label{
+	margin-bottom: 15;
+}
+
+.mainTab{
+	font-size: 30;
+}
+
+.btn-primary {
+  height: 50;
+  background-color: #D51A1A;
+  border-radius: 5;
+  font-size: 20;
+  font-weight: 600;
+}
+.btn-primary:disabled {
+  opacity: 0.5;
+}

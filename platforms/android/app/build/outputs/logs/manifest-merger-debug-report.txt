@@ -1,0 +1,411 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.material:material:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/0564db8f3c411d1b2d54ca0894d9e125/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/5368ac608445531afc50bac2ce32de5a/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b1f5b34fb097267a17ccd1ce089af59c/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d90120b9b4504bcd3f1b3ae0fb3fd3b3/jetified-play-services-location-11.4.0/AndroidManifest.xml:2:1-5:12
+MERGED from [jp.wasabeef:fresco-processors:2.1.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3d274148cb8a296c988b765078b6e428/fresco-processors-2.1.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3d18019cdd2f61a5c5a9edfafe14dc5e/fresco-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-gif:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/868fdf11a916e677e630fb47cb86e329/animated-gif-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/6bfff6f8b01c41d27511c993274cadf0/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.orhanobut:hawk:2.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/9988230d82c8a833ea6c10368d2337f4/hawk-2.0.1/AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.multidex:multidex:2.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/6add80fa500d494a567f2fdb18cf3f24/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/840c3a1d2eabe106cee1cd864e40dd1c/jetified-play-services-base-11.4.0/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/fa4c4dd623ecee56c2f449077cac0b6c/jetified-play-services-tasks-11.4.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d6f949aefe6c493576a1e9ebe6e7cb24/jetified-play-services-basement-11.4.0/AndroidManifest.xml:16:1-23:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b2c7503c3d8c73682829904be28cb3d3/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:nativescript-optimized-with-inspector:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/2acc3f4cc2d86fcbe0f7d7e8f35f1b23/nativescript-optimized-with-inspector/AndroidManifest.xml:2:1-11:12
+MERGED from [:kinvey_nativescript_sdk:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/06e50f5c2c5f534e9c54e397b1df6e6c/kinvey_nativescript_sdk/AndroidManifest.xml:2:1-11:12
+MERGED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:2:1-25:12
+MERGED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:2:1-25:12
+MERGED from [:nativescript_geolocation:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/5fe4cd9174197e1aab5cb9e6d11eba8b/nativescript_geolocation/AndroidManifest.xml:2:1-11:12
+MERGED from [:nativescript_imagepicker:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/0da0df73a0a973bcee4463ec5dcf36f8/nativescript_imagepicker/AndroidManifest.xml:2:1-11:12
+MERGED from [:nativescript_social_share:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7eb0b0bea7c7095f78106ada2fd6c268/jetified-nativescript_social_share/AndroidManifest.xml:2:1-21:12
+MERGED from [:TNSAutoComplete-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/ce38b300a199467da3a6c6250663d86f/TNSAutoComplete-release/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSCalendar-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/291782d5d570baa0506fa9b818f110b5/TNSCalendar-release/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSChart-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/39180571505b637f26d6869730b2bef4/TNSChart-release/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSDataForm-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/06ab188e013a43b2f4fa83408d1b0ebc/TNSDataForm-release/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSGauge-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/e3030bfbd3d426b145cb2a9172e7cfff/TNSGauge-release/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSListView-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/83f6ec57ee27843b1f9049049cc9b964/TNSListView-release/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSSideDrawer-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/9e809fad9ce6117e5e63509f5cfa1649/TNSSideDrawer-release/AndroidManifest.xml:2:1-11:12
+MERGED from [:widgets-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d1d0a37ed04bb73afc76ccc8a0287f0e/widgets-release/AndroidManifest.xml:2:1-14:12
+MERGED from [:TNSCore-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/c16dd81f513dd4c0f060ea34c2db6951/TNSCore-release/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/31ed83ffcb0684c85267139fed118508/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/cea2370fb4e653075c89e65a18ec7791/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b22695fba279fbd04b4ce4b15f78a65a/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4883eaa0c11a69b75cb7c8c979b28503/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/8f29a0a6d78d2a9b1393bb676dc30d55/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/9ce3ee21c2e2c0f2f52b13e38e91138c/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/8addf41d16e93bbc42811ccd1421f03b/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/282cc9c0150c4cd87b74820d4c0b10e8/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/a4db8479c16444c563622389a0014a2b/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7f7c09273c940c0efb3dc5ca565f0de3/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4ae9c9e30e5f7467371f8e6cad9427a5/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b3c08daf8d06a721ec009be3217bda5e/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/f3397d3a2e4abb85883c1034e6547d26/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4076ad87748e3f84a46c96c07d5b96c5/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/9457f161d0b18eec6bb373aba899aa95/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3d3d0b77ddd3e70ec0512eb77638feaf/core-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b6663d48723bf592a2737e3790f2cb04/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/606b93441c07d8d15925b718d269725c/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/6fa4e7d40a20939e6bed79183e68f4dc/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/8a9655c2025fb4f929ac17e42267fa1f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/859c6ea373746f5e6f115ad57061ff19/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/a9cce7566000a40f1d3d79d456cd1d49/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7e1d9b5c301c695a5e7e28c06a3f07e4/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b762e7c274231f2e81915c00b7b6d5cb/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/2a98217a5ae98ff6cb4e2e4c1a978cb4/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3b8ac2fc3a6b04ec3043adbbf861ba5a/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d3a31779f421707e509b7f43829e4b5b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/e655ddd75e346a3057997bda6b53bc0d/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:animated-base:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7928208d01330dce17d2724bf5934767/animated-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-drawable:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d352c57e73b95988c8cfff3517bad3/animated-drawable-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/028d894f349c513d5eba599480a69690/drawee-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/ad1699b69cb7d2244bea8c1a4e4d8b7d/nativeimagefilters-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/c58142ee6ac67c140c86568f9c912fe4/imagepipeline-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/a8caf34ecb60c83bb90d99b5c7d4f94c/nativeimagetranscoder-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/da83267b48f416e0c905100176d71abf/imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/866253625d188bf46bc0994058e0cfca/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/22a7b1a58af8960df54b1db07c4c3474/soloader-0.6.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.conceal:conceal:1.1.3] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/0136910c84776fd9241398beabec7c34/conceal-1.1.3/AndroidManifest.xml:7:1-16:12
+INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:3:64-98
+		INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:3:127-154
+		INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:3:5-63
+	android:versionCode
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:3:99-126
+		INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:4:5-139
+	android:largeScreens
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:4:80-107
+	android:smallScreens
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:4:23-50
+	android:normalScreens
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:4:51-79
+	android:xlargeScreens
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:4:108-136
+uses-sdk
+ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:5:5-84
+INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:5:5-84
+INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:5:5-84
+MERGED from [com.google.android.material:material:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/0564db8f3c411d1b2d54ca0894d9e125/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/0564db8f3c411d1b2d54ca0894d9e125/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/5368ac608445531afc50bac2ce32de5a/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/5368ac608445531afc50bac2ce32de5a/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b1f5b34fb097267a17ccd1ce089af59c/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b1f5b34fb097267a17ccd1ce089af59c/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d90120b9b4504bcd3f1b3ae0fb3fd3b3/jetified-play-services-location-11.4.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d90120b9b4504bcd3f1b3ae0fb3fd3b3/jetified-play-services-location-11.4.0/AndroidManifest.xml:3:5-43
+MERGED from [jp.wasabeef:fresco-processors:2.1.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3d274148cb8a296c988b765078b6e428/fresco-processors-2.1.0/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:fresco-processors:2.1.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3d274148cb8a296c988b765078b6e428/fresco-processors-2.1.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3d18019cdd2f61a5c5a9edfafe14dc5e/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3d18019cdd2f61a5c5a9edfafe14dc5e/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/868fdf11a916e677e630fb47cb86e329/animated-gif-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/868fdf11a916e677e630fb47cb86e329/animated-gif-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/6bfff6f8b01c41d27511c993274cadf0/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/6bfff6f8b01c41d27511c993274cadf0/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.orhanobut:hawk:2.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/9988230d82c8a833ea6c10368d2337f4/hawk-2.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.orhanobut:hawk:2.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/9988230d82c8a833ea6c10368d2337f4/hawk-2.0.1/AndroidManifest.xml:6:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/6add80fa500d494a567f2fdb18cf3f24/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/6add80fa500d494a567f2fdb18cf3f24/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/840c3a1d2eabe106cee1cd864e40dd1c/jetified-play-services-base-11.4.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/840c3a1d2eabe106cee1cd864e40dd1c/jetified-play-services-base-11.4.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/fa4c4dd623ecee56c2f449077cac0b6c/jetified-play-services-tasks-11.4.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/fa4c4dd623ecee56c2f449077cac0b6c/jetified-play-services-tasks-11.4.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d6f949aefe6c493576a1e9ebe6e7cb24/jetified-play-services-basement-11.4.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d6f949aefe6c493576a1e9ebe6e7cb24/jetified-play-services-basement-11.4.0/AndroidManifest.xml:17:5-43
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b2c7503c3d8c73682829904be28cb3d3/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b2c7503c3d8c73682829904be28cb3d3/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:nativescript-optimized-with-inspector:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/2acc3f4cc2d86fcbe0f7d7e8f35f1b23/nativescript-optimized-with-inspector/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized-with-inspector:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/2acc3f4cc2d86fcbe0f7d7e8f35f1b23/nativescript-optimized-with-inspector/AndroidManifest.xml:7:5-9:41
+MERGED from [:kinvey_nativescript_sdk:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/06e50f5c2c5f534e9c54e397b1df6e6c/kinvey_nativescript_sdk/AndroidManifest.xml:7:5-47
+MERGED from [:kinvey_nativescript_sdk:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/06e50f5c2c5f534e9c54e397b1df6e6c/kinvey_nativescript_sdk/AndroidManifest.xml:7:5-47
+MERGED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:8:5-47
+MERGED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:8:5-47
+MERGED from [:nativescript_geolocation:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/5fe4cd9174197e1aab5cb9e6d11eba8b/nativescript_geolocation/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_geolocation:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/5fe4cd9174197e1aab5cb9e6d11eba8b/nativescript_geolocation/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_imagepicker:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/0da0df73a0a973bcee4463ec5dcf36f8/nativescript_imagepicker/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_imagepicker:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/0da0df73a0a973bcee4463ec5dcf36f8/nativescript_imagepicker/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_social_share:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7eb0b0bea7c7095f78106ada2fd6c268/jetified-nativescript_social_share/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_social_share:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7eb0b0bea7c7095f78106ada2fd6c268/jetified-nativescript_social_share/AndroidManifest.xml:7:5-47
+MERGED from [:TNSAutoComplete-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/ce38b300a199467da3a6c6250663d86f/TNSAutoComplete-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSAutoComplete-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/ce38b300a199467da3a6c6250663d86f/TNSAutoComplete-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCalendar-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/291782d5d570baa0506fa9b818f110b5/TNSCalendar-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCalendar-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/291782d5d570baa0506fa9b818f110b5/TNSCalendar-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSChart-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/39180571505b637f26d6869730b2bef4/TNSChart-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSChart-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/39180571505b637f26d6869730b2bef4/TNSChart-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSDataForm-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/06ab188e013a43b2f4fa83408d1b0ebc/TNSDataForm-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSDataForm-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/06ab188e013a43b2f4fa83408d1b0ebc/TNSDataForm-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSGauge-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/e3030bfbd3d426b145cb2a9172e7cfff/TNSGauge-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSGauge-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/e3030bfbd3d426b145cb2a9172e7cfff/TNSGauge-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSListView-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/83f6ec57ee27843b1f9049049cc9b964/TNSListView-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSListView-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/83f6ec57ee27843b1f9049049cc9b964/TNSListView-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSSideDrawer-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/9e809fad9ce6117e5e63509f5cfa1649/TNSSideDrawer-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSSideDrawer-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/9e809fad9ce6117e5e63509f5cfa1649/TNSSideDrawer-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d1d0a37ed04bb73afc76ccc8a0287f0e/widgets-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d1d0a37ed04bb73afc76ccc8a0287f0e/widgets-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCore-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/c16dd81f513dd4c0f060ea34c2db6951/TNSCore-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCore-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/c16dd81f513dd4c0f060ea34c2db6951/TNSCore-release/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/31ed83ffcb0684c85267139fed118508/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/31ed83ffcb0684c85267139fed118508/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/cea2370fb4e653075c89e65a18ec7791/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/cea2370fb4e653075c89e65a18ec7791/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b22695fba279fbd04b4ce4b15f78a65a/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b22695fba279fbd04b4ce4b15f78a65a/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4883eaa0c11a69b75cb7c8c979b28503/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4883eaa0c11a69b75cb7c8c979b28503/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/8f29a0a6d78d2a9b1393bb676dc30d55/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/8f29a0a6d78d2a9b1393bb676dc30d55/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/9ce3ee21c2e2c0f2f52b13e38e91138c/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/9ce3ee21c2e2c0f2f52b13e38e91138c/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/8addf41d16e93bbc42811ccd1421f03b/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/8addf41d16e93bbc42811ccd1421f03b/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/282cc9c0150c4cd87b74820d4c0b10e8/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/282cc9c0150c4cd87b74820d4c0b10e8/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/a4db8479c16444c563622389a0014a2b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/a4db8479c16444c563622389a0014a2b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7f7c09273c940c0efb3dc5ca565f0de3/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7f7c09273c940c0efb3dc5ca565f0de3/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4ae9c9e30e5f7467371f8e6cad9427a5/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4ae9c9e30e5f7467371f8e6cad9427a5/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b3c08daf8d06a721ec009be3217bda5e/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b3c08daf8d06a721ec009be3217bda5e/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/f3397d3a2e4abb85883c1034e6547d26/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/f3397d3a2e4abb85883c1034e6547d26/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4076ad87748e3f84a46c96c07d5b96c5/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4076ad87748e3f84a46c96c07d5b96c5/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/9457f161d0b18eec6bb373aba899aa95/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/9457f161d0b18eec6bb373aba899aa95/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3d3d0b77ddd3e70ec0512eb77638feaf/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3d3d0b77ddd3e70ec0512eb77638feaf/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b6663d48723bf592a2737e3790f2cb04/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b6663d48723bf592a2737e3790f2cb04/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/606b93441c07d8d15925b718d269725c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/606b93441c07d8d15925b718d269725c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/6fa4e7d40a20939e6bed79183e68f4dc/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/6fa4e7d40a20939e6bed79183e68f4dc/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/8a9655c2025fb4f929ac17e42267fa1f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/8a9655c2025fb4f929ac17e42267fa1f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/859c6ea373746f5e6f115ad57061ff19/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/859c6ea373746f5e6f115ad57061ff19/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/a9cce7566000a40f1d3d79d456cd1d49/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/a9cce7566000a40f1d3d79d456cd1d49/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7e1d9b5c301c695a5e7e28c06a3f07e4/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7e1d9b5c301c695a5e7e28c06a3f07e4/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b762e7c274231f2e81915c00b7b6d5cb/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b762e7c274231f2e81915c00b7b6d5cb/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/2a98217a5ae98ff6cb4e2e4c1a978cb4/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/2a98217a5ae98ff6cb4e2e4c1a978cb4/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3b8ac2fc3a6b04ec3043adbbf861ba5a/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3b8ac2fc3a6b04ec3043adbbf861ba5a/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d3a31779f421707e509b7f43829e4b5b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d3a31779f421707e509b7f43829e4b5b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/e655ddd75e346a3057997bda6b53bc0d/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/e655ddd75e346a3057997bda6b53bc0d/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:animated-base:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7928208d01330dce17d2724bf5934767/animated-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7928208d01330dce17d2724bf5934767/animated-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d352c57e73b95988c8cfff3517bad3/animated-drawable-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d352c57e73b95988c8cfff3517bad3/animated-drawable-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/028d894f349c513d5eba599480a69690/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/028d894f349c513d5eba599480a69690/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/ad1699b69cb7d2244bea8c1a4e4d8b7d/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/ad1699b69cb7d2244bea8c1a4e4d8b7d/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/c58142ee6ac67c140c86568f9c912fe4/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/c58142ee6ac67c140c86568f9c912fe4/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/a8caf34ecb60c83bb90d99b5c7d4f94c/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/a8caf34ecb60c83bb90d99b5c7d4f94c/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/da83267b48f416e0c905100176d71abf/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/da83267b48f416e0c905100176d71abf/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/866253625d188bf46bc0994058e0cfca/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/866253625d188bf46bc0994058e0cfca/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/22a7b1a58af8960df54b1db07c4c3474/soloader-0.6.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/22a7b1a58af8960df54b1db07c4c3474/soloader-0.6.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.conceal:conceal:1.1.3] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/0136910c84776fd9241398beabec7c34/conceal-1.1.3/AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.conceal:conceal:1.1.3] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/0136910c84776fd9241398beabec7c34/conceal-1.1.3/AndroidManifest.xml:12:5-14:41
+INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:5:5-84
+INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:5:5-84
+	android:targetSdkVersion
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:5:42-81
+		INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:5:15-41
+		INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml
+		MERGED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:5:15-41
+		MERGED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:5:15-41
+		MERGED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:5:15-41
+		MERGED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:5:15-41
+		MERGED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:5:15-41
+		INJECTED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:11:5-67
+MERGED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:7:5-80
+MERGED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:12:5-80
+MERGED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:12:5-80
+MERGED from [:nativescript_imagepicker:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/0da0df73a0a973bcee4463ec5dcf36f8/nativescript_imagepicker/AndroidManifest.xml:9:5-80
+MERGED from [:nativescript_imagepicker:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/0da0df73a0a973bcee4463ec5dcf36f8/nativescript_imagepicker/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:8:5-81
+MERGED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:13:5-81
+MERGED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:9:5-18:19
+MERGED from [com.google.android.material:material:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/0564db8f3c411d1b2d54ca0894d9e125/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/0564db8f3c411d1b2d54ca0894d9e125/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d90120b9b4504bcd3f1b3ae0fb3fd3b3/jetified-play-services-location-11.4.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d90120b9b4504bcd3f1b3ae0fb3fd3b3/jetified-play-services-location-11.4.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/840c3a1d2eabe106cee1cd864e40dd1c/jetified-play-services-base-11.4.0/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/840c3a1d2eabe106cee1cd864e40dd1c/jetified-play-services-base-11.4.0/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/fa4c4dd623ecee56c2f449077cac0b6c/jetified-play-services-tasks-11.4.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/fa4c4dd623ecee56c2f449077cac0b6c/jetified-play-services-tasks-11.4.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d6f949aefe6c493576a1e9ebe6e7cb24/jetified-play-services-basement-11.4.0/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d6f949aefe6c493576a1e9ebe6e7cb24/jetified-play-services-basement-11.4.0/AndroidManifest.xml:19:5-21:19
+MERGED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:17:5-23:19
+MERGED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:17:5-23:19
+MERGED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:12:5-23:19
+MERGED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:12:5-23:19
+MERGED from [:nativescript_social_share:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7eb0b0bea7c7095f78106ada2fd6c268/jetified-nativescript_social_share/AndroidManifest.xml:9:5-19:19
+MERGED from [:nativescript_social_share:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7eb0b0bea7c7095f78106ada2fd6c268/jetified-nativescript_social_share/AndroidManifest.xml:9:5-19:19
+MERGED from [:widgets-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d1d0a37ed04bb73afc76ccc8a0287f0e/widgets-release/AndroidManifest.xml:11:5-12:19
+MERGED from [:widgets-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d1d0a37ed04bb73afc76ccc8a0287f0e/widgets-release/AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.core:core:1.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3d3d0b77ddd3e70ec0512eb77638feaf/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3d3d0b77ddd3e70ec0512eb77638feaf/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b6663d48723bf592a2737e3790f2cb04/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/b6663d48723bf592a2737e3790f2cb04/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/22a7b1a58af8960df54b1db07c4c3474/soloader-0.6.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/22a7b1a58af8960df54b1db07c4c3474/soloader-0.6.0/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/3d3d0b77ddd3e70ec0512eb77638feaf/core-1.0.1/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:9:158-190
+	android:icon
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:9:128-157
+	android:allowBackup
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:9:101-127
+	android:theme
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:9:191-222
+	android:usesCleartextTraffic
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:9:65-100
+	android:name
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:9:18-64
+activity#com.tns.NativeScriptActivity
+ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:10:9-16:20
+	android:label
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:10:63-108
+	android:configChanges
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:10:109-170
+	android:theme
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:10:171-211
+	android:name
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:10:19-62
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:11:13-96
+	android:resource
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:11:59-93
+	android:name
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:11:24-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:14:27-74
+activity#com.tns.ErrorReportActivity
+ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:17:9-64
+	android:name
+		ADDED from /home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:17:19-61
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/840c3a1d2eabe106cee1cd864e40dd1c/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/840c3a1d2eabe106cee1cd864e40dd1c/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/840c3a1d2eabe106cee1cd864e40dd1c/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/840c3a1d2eabe106cee1cd864e40dd1c/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d6f949aefe6c493576a1e9ebe6e7cb24/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d6f949aefe6c493576a1e9ebe6e7cb24/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/d6f949aefe6c493576a1e9ebe6e7cb24/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:20-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:kinvey_nativescript_sdk:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/06e50f5c2c5f534e9c54e397b1df6e6c/kinvey_nativescript_sdk/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:kinvey_nativescript_sdk:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/06e50f5c2c5f534e9c54e397b1df6e6c/kinvey_nativescript_sdk/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:14:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:15:5-77
+	android:name
+		ADDED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:15:22-74
+service#net.gotev.uploadservice.UploadService
+ADDED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:18:9-22:19
+	android:enabled
+		ADDED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:20:13-35
+	android:exported
+		ADDED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [:uploadservice-release:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:19:13-65
+uses-permission#android.permission.CAMERA
+ADDED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:10:22-62
+provider#androidx.core.content.FileProvider
+ADDED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:13:9-22:20
+MERGED from [:nativescript_social_share:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7eb0b0bea7c7095f78106ada2fd6c268/jetified-nativescript_social_share/AndroidManifest.xml:10:9-18:20
+MERGED from [:nativescript_social_share:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7eb0b0bea7c7095f78106ada2fd6c268/jetified-nativescript_social_share/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:17:13-47
+	android:authorities
+		ADDED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:15:13-60
+	android:exported
+		ADDED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:14:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:18:13-21:52
+MERGED from [:nativescript_social_share:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7eb0b0bea7c7095f78106ada2fd6c268/jetified-nativescript_social_share/AndroidManifest.xml:15:13-17:58
+MERGED from [:nativescript_social_share:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7eb0b0bea7c7095f78106ada2fd6c268/jetified-nativescript_social_share/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:20:17-55
+		REJECTED from [:nativescript_social_share:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/7eb0b0bea7c7095f78106ada2fd6c268/jetified-nativescript_social_share/AndroidManifest.xml:17:17-55
+	tools:replace
+		ADDED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:21:17-49
+	android:name
+		ADDED from [:nativescript_camera:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/4c14124d0e458dc110298643a8f298fb/jetified-nativescript_camera/AndroidManifest.xml:19:17-67
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:nativescript_geolocation:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/5fe4cd9174197e1aab5cb9e6d11eba8b/nativescript_geolocation/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:nativescript_geolocation:] /home/hendrikus/.gradle/caches/transforms-2/files-2.1/5fe4cd9174197e1aab5cb9e6d11eba8b/nativescript_geolocation/AndroidManifest.xml:9:22-76
