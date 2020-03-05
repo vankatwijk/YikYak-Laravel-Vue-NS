@@ -1,4 +1,4 @@
-# Nativescript Social Network for people in Sports
+# Nativescript GPS note app
 
 ```
 #Pre-requirements
@@ -14,4 +14,3 @@
 ```
 
 ### Description:
-this is a social media application like linkedin for people in sports, the difference is being able to follow a tag from a person and not the person itself, allowing you to filter the information in your feed.
