@@ -9,6 +9,7 @@ import routes from "./routes";
 
 Vue.config.silent = false;//set to false to see output logs
 Vue.registerElement('RadSideDrawer', () => require('nativescript-ui-sidedrawer').RadSideDrawer)
+Vue.registerElement("Mapbox", () => require("nativescript-mapbox").MapboxView)
 import RadListView from 'nativescript-ui-listview/vue';
 Vue.use(RadListView);
 

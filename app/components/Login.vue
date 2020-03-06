@@ -163,6 +163,8 @@
                             console.log(result);
                             appSettings.setString('userToken',result.success.token);
                             appSettings.setString('name',result.success.name);
+                            appSettings.setNumber('userid',result.success.userid);
+                            appSettings.setString('email',result.success.email);
                             
                             this.$navigateTo(Home, { clearHistory: true });
                         }else if(response.statusCode === 401){

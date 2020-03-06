@@ -48,14 +48,14 @@
 
                             <v-template>
 
-                                <StackLayout paddingTop="5" backgroundColor="#E8E8E8">
+                                <StackLayout paddingTop="5" backgroundColor="#E8E8E8" :id="note.id" @tap="selectNote(note.id)">
                                     <StackLayout class="noteContainer">
                                         <StackLayout orientation="horizontal"
                                             padding="10">
                                             <StackLayout>
                                                 <Label :text="note.title"
                                                     class="postAuthotName" />
-                                                <Label :text="(note.distance.toFixed(3) *100) +' meters away'"
+                                                <Label :text="(+note.distance * 100).toFixed(3) +' meters away'"
                                                     class="postDateSmall" />
                                             </StackLayout>
                                         </StackLayout>
@@ -101,6 +101,7 @@
 <script>
     import Login from "./Login";
     import Post from "./Post";
+    import NoteDetails from "./NoteDetails";
 
     const httpModule = require("http");
     const appSettings = require("tns-core-modules/application-settings");
@@ -111,10 +112,6 @@
         },
         watch: {
             location() {
-                console.log('----------------------');
-                console.log(this.location.latitude);
-                console.log(this.location.longitude);
-
                 this.getNotes();
             }
         },
@@ -168,6 +165,10 @@
         methods: {
             onStart(){
                 this.name = appSettings.getString('name','');
+            },
+            selectNote(id){
+                appSettings.setNumber('selectedNote',id);
+                this.$navigateTo(NoteDetails, { clearHistory: true });
             },
             getNotes(){
                 console.log('getting notes');
@@ -229,31 +230,6 @@
             },
             logout() {
                 this.$navigateTo(Login, {
-                    clearHistory: true
-                });
-            },
-            searchSubmited(){
-
-                this.$navigateTo(Search, {
-                    animated: {
-                        name:'fade',
-                        duration: 200
-                    },
-                    clearHistory: true,
-                    props: {
-                        searchValue: this.searchValue
-                    }
-                });
-
-            },
-
-
-
-            notificationsTap() {
-
-                var userToken = appSettings.remove('userToken');
-                var appURL = appSettings.remove('appURL');
-                this.$navigateTo(Notification, {
                     clearHistory: true
                 });
             },
