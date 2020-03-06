@@ -99,6 +99,7 @@
     </page>
 </template>
 <script>
+    //get external pages and plugins
     import Login from "./Login";
     import Post from "./Post";
     import NoteDetails from "./NoteDetails";
@@ -111,11 +112,18 @@
         computed: {
         },
         watch: {
-            location() {
-                this.getNotes();
+            location:{
+                //if gps location changes reload the notes list, deep watcher is needed
+                deep:true,
+
+                handler(){
+                    console.log('the gps location has changed, notes list reload')
+                    this.getNotes();
+                }
             }
         },
         created() {
+            //on creation ensure the user has gps enabled otherwise the app will crash
             Geolocation.enableLocationRequest(true)
             .then(() => {
                 Geolocation.isEnabled().then(isLocationEnabled => {
@@ -133,9 +141,6 @@
                         console.log('loc result', result);
                         this.needLocation = false;
                         this.location = result;
-
-
-
                         
                     })
                     .catch(e => {
@@ -143,7 +148,7 @@
                     });
                 });
             });
-
+            //a delay is is needed to run the inital starting function due to nativescript bug
             setTimeout(() => {
                 this.onStart();
             }, 500);
@@ -159,23 +164,32 @@
                 mainColor: "#1aa3ff",
                 APIURL: "",
                 name:"",
+                index: 'list',
                 notes: [],
             };
         },
         methods: {
             onStart(){
+                //this is the first method to be executed on the app starting
                 this.name = appSettings.getString('name','');
             },
             selectNote(id){
+                //the selected note is stored in the appsettings for later 
                 appSettings.setNumber('selectedNote',id);
                 this.$navigateTo(NoteDetails, { clearHistory: true });
             },
             getNotes(){
+                //make a request to the api server and get all the notes in the area
                 console.log('getting notes');
+                //get all stored variables from the login session
                 var userToken = appSettings.getString('userToken',0);
                 var appURL = appSettings.getString('appURL',0);
                 this.APIURL = appURL;
 
+                //debuging show 
+                console.log(appURL+'/api/notes?lat='+this.location.latitude+'&lng='+this.location.longitude);
+
+                //send request to api server
                 httpModule.request({
                     url: appURL+'/api/notes?lat='+this.location.latitude+'&lng='+this.location.longitude,
                     method: "Get",
@@ -193,6 +207,7 @@
 
             },
             onPullToRefreshInitiated({ object }) {
+                //this method reloads the list of notes when they pull down on the list of available notes
                 this.$nextTick(() => {
 
                     this.getNotes();
@@ -210,25 +225,15 @@
                 this.$refs.drawer.nativeView.toggleDrawerState();
             },
             homeTap() {},
-            profileTap() {
-                this.$navigateTo(Profile, {
-                    animated: false,
-                    clearHistory: true
-                });
-            },
             postTap() {
+                //navigation home button clicked
                 this.$navigateTo(Post, {
                     animated: false,
                     clearHistory: true
                 });
             },
-            conversationsTap() {
-                this.$navigateTo(Convs, {
-                    animated: false,
-                    clearHistory: true
-                });
-            },
             logout() {
+                //logout of the current user
                 this.$navigateTo(Login, {
                     clearHistory: true
                 });

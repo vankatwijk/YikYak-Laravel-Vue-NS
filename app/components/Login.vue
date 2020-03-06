@@ -63,10 +63,9 @@
 </template>
 
 <script>
+    //get external pages an plugins
     import Home from "./Home";
     import ForgotPassword from "./ForgotPassword";
-    //import * as http from "http";
-
     const httpModule = require("http");
     const dialogs = require("tns-core-modules/ui/dialogs");
     const appSettings = require("tns-core-modules/application-settings");
@@ -93,6 +92,7 @@
         },
         mounted() {
             setTimeout(() => {
+                // run the onstart method after the app is ready (nativescript bug)
                 this.onStart();
             }, 1000);
 
@@ -102,7 +102,7 @@
             },
 
             changeAPI(){
-
+                //this method allows you to change the default api url from the app
                 dialogs.prompt({
                     title:"API server URL",
                     message:"please provide the url to the api server",
@@ -116,11 +116,13 @@
                 });
             },
             toggleForm() {
+                //switch between login forma nd signup forrm
                 this.isLoggingIn = !this.isLoggingIn;
             },
 
             submit() {
 
+                //then the submit button is click detect if its for the login or signup form
                 if (!this.user.email || !this.user.password) {
                     alert(
                         "Please provide both an email address and password."
@@ -128,6 +130,7 @@
                     return;
                 }
 
+                //route to the appropriate method
                 this.processing = true;
                 if (this.isLoggingIn) {
                     this.login();
@@ -138,8 +141,10 @@
             },
 
             login() {
+                    //get the ap server url
                     var appURL = appSettings.getString('appURL');
 
+                    //send a request to the api server with the login information
                     httpModule.request({
                         url: appURL+'/api/login',//"http://192.168.0.83:8000/api/login",
                         method: "POST",
@@ -153,24 +158,25 @@
                         })
                     })
                     .then(response => {
-
+                        
                         this.processing = false;
 
                         if(response.statusCode === 200){
-                            //good login
+                            //good login, redirect to the home page after saving the app settings
 
                             var result = response.content.toJSON();
                             console.log(result);
                             appSettings.setString('userToken',result.success.token);
-                            appSettings.setString('name',result.success.name);
-                            appSettings.setNumber('userid',result.success.userid);
-                            appSettings.setString('email',result.success.email);
+                            appSettings.setString('name',result.success.user.name);
+                            appSettings.setNumber('userid',result.success.user.id);
+                            appSettings.setString('email',result.success.user.email);
                             
                             this.$navigateTo(Home, { clearHistory: true });
                         }else if(response.statusCode === 401){
                             //failed logn
                             alert('The login details you have provided are not correct');
                         }else{
+                            // unkown error
                             alert('Unexpected error');
                         }
 
@@ -183,22 +189,27 @@
             },
 
             register() {
+                //check if all the validation rules are correct
                 if (this.user.password != this.user.confirmPassword) {
+                    //passwords do not match
                     alert("Your passwords do not match.");
                     this.processing = false;
                     return;
                 }else if(this.user.password.length <=7 ){
+                    //password less than 8 chars
                     alert("Your password must be atlease 8 characters");
                     this.processing = false;
                     return;
                 }else if(!this.user.name){
+                    //missing fiels
                     alert('all fields are required.');
                     this.processing = false;
                     return;
                 }
-
+                //get api server url
                 var appURL = appSettings.getString('appURL');
 
+                //make a request to the api server for registering the user
                 httpModule.request({
                     url: appURL+'/api/register',//"http://192.168.0.83:8000/api/login",
                     method: "POST",
@@ -220,7 +231,7 @@
                     console.log(response.content.toJSON());
 
                     if(response.statusCode === 200){
-                        //good login
+                        //good registration, alert the user to check there email
 
                         var result = response.content.toJSON();
                         console.log(result);
@@ -228,7 +239,7 @@
                         this.isLoggingIn = true;
 
                     }else if(response.statusCode === 422){
-                        //failed logn
+                        //failed registration
                         alert('The following error happened Username or email already taken or password length is to short.');
                         console.log(response.content);
                         console.log('------------------------');
@@ -243,14 +254,17 @@
                 });
             },
             focusPassword() {
+                //redirect the user to the forgot password screen
                 this.$refs.password.nativeView.focus();
             },
             focusConfirmPassword() {
+                //next button on keyboard clicked, focus on confirm password field
                 if (!this.isLoggingIn) {
                     this.$refs.confirmPassword.nativeView.focus();
                 }
             },
             forgotPassword() {
+                //next button on keyboard clicked ,focus on password field
                 this.$navigateTo(ForgotPassword);
             },
 

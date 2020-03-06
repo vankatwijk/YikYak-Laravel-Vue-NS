@@ -94,7 +94,7 @@
         watch: {},
 
         created() {
-
+            //check if gps is enabled on the phone
             Geolocation.enableLocationRequest(true)
             .then(() => {
                 Geolocation.isEnabled().then(isLocationEnabled => {
@@ -137,10 +137,11 @@
         },
         computed: {
             locationDescription() {
+                //display current location
                 return `You are at ${this.location.latitude}, ${this.location.longitude}. Your altitude is ${this.location.altitude}.`;
             },
             name(){
-
+                //get the name of the current login user to display in the side drawer
                 return appSettings.getString('name','');
             }
         },
@@ -149,6 +150,7 @@
 
             },
             submitPost(){
+                //get all stored variables from the login session
                 var userToken = appSettings.getString('userToken',0);
                 var appURL = appSettings.getString('appURL',0);
                 this.APIURL = appURL;
@@ -168,6 +170,7 @@
                         lng:this.location.longitude
                     })
                 }).then(response => {
+                    // the post was saved successfully
                     console.log(response);
                     if(response.statusCode === 200){
                         this.noteTitle = '';
@@ -192,25 +195,22 @@
                 this.$refs.drawer.nativeView.toggleDrawerState();
             },
             homeTap() {
+                // navigate home
                 this.$navigateTo(Home, {
                     animated: false,
                     clearHistory: true
                 });
             },
             postTap() {
+                // navigate to the new post screen
                 this.$navigateTo(Post, {
                     animated: false,
                     clearHistory: true
                 });
             },
             logout() {
+                // logout of the current user
                 this.$navigateTo(Login, {
-                    clearHistory: true
-                });
-            },
-
-            notificationsTap() {
-                this.$navigateTo(Notification, {
                     clearHistory: true
                 });
             },

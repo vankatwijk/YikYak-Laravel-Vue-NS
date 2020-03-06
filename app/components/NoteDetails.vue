@@ -46,9 +46,8 @@
                         
                         <Mapbox
                             accessToken="pk.eyJ1IjoidmFua2F0d2lqayIsImEiOiJjazZvNXZmbmswcmY5M25seWRnaWR3amRhIn0.2UyRhsFU7ZdNe1GZyBPzcQ"
-                            mapStyle="traffic_night"
-                            latitude="noteLat"
-                            longitude="noteLng"
+                            :latitude="noteLat"
+                            :longitude="noteLng"
                             hideCompass="true"
                             zoomLevel="12"
                             showUserLocation="false"
@@ -58,7 +57,7 @@
                             disableTilt="false"
                             @mapReady="onMapReady($event)">
                         </Mapbox>
-                        
+
                     </StackLayout>
 
 
@@ -96,11 +95,11 @@
     </page>
 </template>
 <script>
+    //external pages and plugins
     import Home from "./Home";
     import Login from "./Login";
     import Post from "./Post";
     import * as Geolocation from 'nativescript-geolocation';
-
     const httpModule = require("http");
     const appSettings = require("tns-core-modules/application-settings");
 
@@ -132,18 +131,23 @@
             };
         },
         computed: {
+            name(){
+                //get the current login user
+                return appSettings.getString('name','');
+            }
         },
         methods: {
             onStart(){
-
+                //get all stored variables from the login session
                 this.loginUserId = appSettings.getNumber('userid','')
                 var selectedNote = appSettings.getNumber('selectedNote',0);
-
-                console.log('getting note');
                 var userToken = appSettings.getString('userToken',0);
                 var appURL = appSettings.getString('appURL',0);
                 this.APIURL = appURL;
 
+                console.log('getting note');
+
+                //send request to api server
                 httpModule.request({
                     url: appURL+'/api/notes/'+selectedNote,
                     method: "Get",
@@ -152,6 +156,7 @@
                         "Authorization": "Bearer "+userToken
                     }
                 }).then(response => {
+                    //get all the notes details
                     var result =response.content.toJSON();
                     this.noteTitle=result.title;
                     this.noteBody=result.description;
@@ -165,11 +170,13 @@
             },
             deletePost() {
                 console.log('delete note');
+                //get all stored variables from the login session
                 var userToken = appSettings.getString('userToken',0);
                 var appURL = appSettings.getString('appURL',0);
                 var selectedNote = appSettings.getNumber('selectedNote',0);
                 this.APIURL = appURL;
 
+                //send request to api server
                 httpModule.request({
                     url: appURL+'/api/notes/'+selectedNote,
                     method: "delete",
@@ -178,6 +185,7 @@
                         "Authorization": "Bearer "+userToken
                     }
                 }).then(response => {
+                    //if the deletion was successful go to the home screen
                     this.$navigateTo(Home, {
                         animated: false,
                         clearHistory: true
@@ -187,12 +195,15 @@
                 });
             },
             editPost(){
+                //get all stored variables from the login session
                 var userToken = appSettings.getString('userToken',0);
                 var appURL = appSettings.getString('appURL',0);
+                var selectedNote = appSettings.getNumber('selectedNote',0);
                 this.APIURL = appURL;
 
+                //send request to api server
                 httpModule.request({
-                    url: appURL+'/api/notes'+selectedNote,//"http://192.168.0.83:8000/api/home",
+                    url: appURL+'/api/notes/'+selectedNote,//"http://192.168.0.83:8000/api/home",
                     method: "put",
                     headers: { 
                         "Content-Type": "application/json",
@@ -202,14 +213,13 @@
                     content: JSON.stringify({
                         title:this.noteTitle,
                         description: this.noteBody,
-                        lat:this.location.noteLat,
-                        lng:this.location.notelng
+                        lat:this.noteLat,
+                        lng:this.noteLng
                     })
                 }).then(response => {
+                    //if everything was okay with the update an alert is generated
                     console.log(response);
                     if(response.statusCode === 200){
-                        this.noteTitle = '';
-                        this.noteBody = '';
                         alert('note has been updated');
                     }else{
                         alert('could not update');
@@ -221,14 +231,19 @@
 
             },
             onMapReady(args) {
-                args.map.addMarkers([
-                    {
-                        lat: this.noteLat,
-                        lng: this.noteLng,
-                        title: this.noteTitle,
-                        subtitle: this.noteBody
-                    }
-                ]);
+                //generate a pointer in the map with information 
+                //a timeout is needed to let the api server respond with the marker information
+                setTimeout(() => {
+                    //this marker takes the information from the note details
+                    args.map.addMarkers([
+                        {
+                            lat: this.noteLat,
+                            lng: this.noteLng,
+                            title: this.noteTitle,
+                            subtitle: this.noteBody
+                        }
+                    ]);
+                }, 500);
             },
             onDrawerClosed() {
                 this.drawerToggle = false;
@@ -240,6 +255,7 @@
                 this.$refs.drawer.nativeView.toggleDrawerState();
             },
             homeTap() {
+                //go to the home screen reseting the selected note variable
                 appSettings.setNumber('selectedNote',0);
                 this.$navigateTo(Home, {
                     animated: false,
@@ -247,6 +263,7 @@
                 });
             },
             postTap() {
+                //go to the new post screen reseting the selected note variable
                 appSettings.setNumber('selectedNote',0);
                 this.$navigateTo(Post, {
                     animated: false,
@@ -254,17 +271,13 @@
                 });
             },
             logout() {
+                //logout resetiing the selected note variable
                 appSettings.setNumber('selectedNote',0);
                 this.$navigateTo(Login, {
                     clearHistory: true
                 });
             },
 
-            notificationsTap() {
-                this.$navigateTo(Notification, {
-                    clearHistory: true
-                });
-            },
             showDetails() {}
         }
     };

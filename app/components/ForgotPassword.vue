@@ -10,7 +10,7 @@
                         <TextField class="input" hint="Email" :isEnabled="!processing"
                             keyboardType="email" autocorrect="false"
                             autocapitalizationType="none" v-model="user.email"
-                            returnKeyType="next" @returnPress="focusPassword"></TextField>
+                            returnKeyType="next" @returnPress="reset"></TextField>
                         <StackLayout class="hr-light"></StackLayout>
                     </StackLayout>
 
@@ -29,8 +29,8 @@
 </template>
 
 <script>
+    //get all external pages and plugins
     import Login from "./Login";
-    //import * as http from "http";
 
     const httpModule = require("http");
     const dialogs = require("tns-core-modules/ui/dialogs");
@@ -65,8 +65,10 @@
 
 
             reset() {
+                    //get all stored variables from the login session
                     var appURL = appSettings.getString('appURL');
 
+                    //make a request to the api server
                     httpModule.request({
                         url: appURL+'/api/reset-password',//"http://192.168.0.83:8000/api/login",
                         method: "POST",
@@ -83,14 +85,16 @@
                         this.processing = false;
 
                         if(response.statusCode === 200){
-                            //good login
+                            //success, alert the userr to check there email
                             alert('please check your email');
                             this.$navigateTo(Login, { clearHistory: true });
                         }else{
-                            alert('Email does not exist');
+                            //fail, alert the user
+                            alert('Email does not exist or to many request');
                         }
 
                     }, (e) => {
+                        //general error
                         this.processing = false;
                         alert(e.message)
                     });
@@ -98,6 +102,7 @@
 
             },
             backToLogin() {
+                //go back to the login screen
                 this.$navigateTo(Login);
             },
 

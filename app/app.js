@@ -1,5 +1,6 @@
 import Vue from "nativescript-vue";
 
+//simple routing script
 import routes from "./routes";
 //import BackendService from "./services/backend-service";
 
@@ -7,6 +8,7 @@ import routes from "./routes";
 // Vue.config.silent = false;
 
 
+//plugins to be used with this application
 Vue.config.silent = false;//set to false to see output logs
 Vue.registerElement('RadSideDrawer', () => require('nativescript-ui-sidedrawer').RadSideDrawer)
 Vue.registerElement("Mapbox", () => require("nativescript-mapbox").MapboxView)
@@ -16,6 +18,7 @@ Vue.use(RadListView);
 // const backendService = new BackendService();
 // Vue.prototype.$backendService = backendService;
 
+//start the vue application
 new Vue({
   render: h => h("frame", [h(routes.login)])
 }).$start();
