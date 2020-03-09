@@ -20,5 +20,5 @@ Vue.use(RadListView);
 
 //start the vue application
 new Vue({
-  render: h => h("frame", [h(routes.login)])
+  render: h => h("frame", [h(routes.background)])
 }).$start();

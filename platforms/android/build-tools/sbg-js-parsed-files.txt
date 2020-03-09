@@ -1,4 +1,4 @@
-/home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/assets/app/tns-java-classes.js
-/home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/assets/app/runtime.js
-/home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/assets/app/bundle.js
-/home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/assets/app/vendor.js
+/home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/src/main/assets/app/tns-java-classes.js
+/home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/src/main/assets/app/bundle.js
+/home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/src/main/assets/app/runtime.js
+/home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/src/main/assets/app/vendor.js

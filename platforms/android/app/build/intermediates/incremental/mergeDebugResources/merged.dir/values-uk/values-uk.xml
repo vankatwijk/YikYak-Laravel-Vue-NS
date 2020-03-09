@@ -44,6 +44,19 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Відкрити на телефоні"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Увійти"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Увійти в облік. запис Google"</string>
+    <string name="mapbox_attributionErrorNoBrowser">Веб-оглядач відсутній на цьому пристрої, неможливо відкрити веб-сторінку</string>
+    <string name="mapbox_attributionTelemetryMessage">Ви допомагаєте робити мапи OpenStreetMap та Mapbox краще пощирюючи анонімні дані про користування мапами.</string>
+    <string name="mapbox_attributionTelemetryNegative">Не погоджуюсь</string>
+    <string name="mapbox_attributionTelemetryNeutral">Додаткова інформація</string>
+    <string name="mapbox_attributionTelemetryPositive">Погоджуюсь</string>
+    <string name="mapbox_attributionTelemetryTitle">Допоможіть зробити мапи Mapbox краще</string>
+    <string name="mapbox_attributionsDialogTitle">Mapbox Maps SDK для Android</string>
+    <string name="mapbox_attributionsIconContentDescription">Значок атрибуції. Натисніть, щоб показати діалог атрибуції.</string>
+    <string name="mapbox_compassContentDescription">Компас. Натисніть щоб зорієнтувати мапу на північ.</string>
+    <string name="mapbox_mapActionDescription">Показує мапи створені за допомоги Mapbox. Пересувайте мапу двома пальцями. Змінюйте масштаб стуляючи/розводячи два пальці.</string>
+    <string name="mapbox_myLocationViewContentDescription">Визначення положення. Показує ваше місцеположення на мапі.</string>
+    <string name="mapbox_offline_error_region_definition_invalid">Межі ділянки для оффлайнового користування даними за межами світу: %s</string>
+    <string name="mapbox_telemetrySettings">Налаштування телеметрії</string>
     <string msgid="146198913615257606" name="search_menu_title">"Пошук"</string>
     <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

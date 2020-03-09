@@ -44,6 +44,19 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Otevřít v telefonu"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Přihlásit se"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Přihlásit se k účtu Google"</string>
+    <string name="mapbox_attributionErrorNoBrowser">Na zařízení není nainstalován prohlížeč obsahu internetu, webovou stránku nelze zobrazit.</string>
+    <string name="mapbox_attributionTelemetryMessage">Pomáhat udělat OpenStreetMap a Mapbox mapy lepšími poskytnutím anonymních dat o využití.</string>
+    <string name="mapbox_attributionTelemetryNegative">Odmítnout</string>
+    <string name="mapbox_attributionTelemetryNeutral">Více informací</string>
+    <string name="mapbox_attributionTelemetryPositive">Souhlasit</string>
+    <string name="mapbox_attributionTelemetryTitle">Udělat mapy Mapbox lepšími</string>
+    <string name="mapbox_attributionsDialogTitle">Mapbox Maps SDK pro Android</string>
+    <string name="mapbox_attributionsIconContentDescription">Atributy. Zobrazit nastavení atributů.</string>
+    <string name="mapbox_compassContentDescription">Kompas. Nastavit natočení mapy k severu.</string>
+    <string name="mapbox_mapActionDescription">Zobrazení mapy vytvořené s Mapbox. Posunout tažením dvěma prsty. Změnit velikost roztažením dvou prstů.</string>
+    <string name="mapbox_myLocationViewContentDescription">Zobrazení polohy. Zobrazit umístění na mapě.</string>
+    <string name="mapbox_offline_error_region_definition_invalid">Pokud OfflineRegionDefinition neodpovídá hranicím: %s</string>
+    <string name="mapbox_telemetrySettings">Nastavení telemetrie</string>
     <string msgid="146198913615257606" name="search_menu_title">"Hledat"</string>
     <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

@@ -44,6 +44,19 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Ouvrir sur le téléphone"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Se connecter"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Se connecter avec Google"</string>
+    <string name="mapbox_attributionErrorNoBrowser">Aucun navigateur web installé sur l’appareil, impossible d’ouvrir une page web.</string>
+    <string name="mapbox_attributionTelemetryMessage">Vous aidez à améliorer les cartes OpenStreetMap et Mapbox en contribuant des données d\'utilisation anonymes.</string>
+    <string name="mapbox_attributionTelemetryNegative">Pas d’accord</string>
+    <string name="mapbox_attributionTelemetryNeutral">Plus d’informations</string>
+    <string name="mapbox_attributionTelemetryPositive">D’accord</string>
+    <string name="mapbox_attributionTelemetryTitle">Faire de meilleures cartes Mapbox</string>
+    <string name="mapbox_attributionsDialogTitle">SDK Mapbox Maps pour Android</string>
+    <string name="mapbox_attributionsIconContentDescription">Icône d’attribution. Activer pour afficher le dialogue d’attribution.</string>
+    <string name="mapbox_compassContentDescription">Boussole. Activer pour rétablir l’orientation de la carte vers le nord.</string>
+    <string name="mapbox_mapActionDescription">Affichage d’une carte créée avec Mapbox. Faites la glisser en traînant deux doigts. Zoomez ou dézoomez en écartant ou rapprochant deux doigts.</string>
+    <string name="mapbox_myLocationViewContentDescription">Vue de géolocalisation. Ceci affiche votre localisation sur la carte.</string>
+    <string name="mapbox_offline_error_region_definition_invalid">Le cadre OfflineRegionDefinition pour définir la région de navigation ne tient pas dans les limites du monde : %s</string>
+    <string name="mapbox_telemetrySettings">Paramètres de télémétrie</string>
     <string msgid="146198913615257606" name="search_menu_title">"Rechercher"</string>
     <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

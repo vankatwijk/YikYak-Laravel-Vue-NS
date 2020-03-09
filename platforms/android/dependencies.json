@@ -48,6 +48,10 @@
         "directory": "../../node_modules/nativescript-iqkeyboardmanager"
     },
     {
+        "name": "nativescript-mapbox",
+        "directory": "../../node_modules/nativescript-mapbox"
+    },
+    {
         "name": "nativescript-social-share",
         "directory": "../../node_modules/nativescript-social-share"
     },

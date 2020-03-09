@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hendrikus/Repo/LoNoTE app/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "outputFile": "/home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/hendrikus/.gradle/caches/transforms-2/files-2.1/291782d5d570baa0506fa9b818f110b5/TNSCalendar-release/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "source": "/home/hkatwijk/.gradle/caches/transforms-2/files-2.1/291782d5d570baa0506fa9b818f110b5/TNSCalendar-release/res/values-sw720dp-v13/values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,1 +1,1 @@
-/home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/java
+/home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/src/main/java

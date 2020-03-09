@@ -44,6 +44,15 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Megnyitás a telefonon"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Bejelentkezés"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Bejelentkezés Google-fiókkal"</string>
+    <string name="mapbox_attributionTelemetryMessage">Segítesz az OpenStreetMap és Mapbox térképek jobbá tételében névtelen felhasználási adatok elküldésével.</string>
+    <string name="mapbox_attributionTelemetryNegative">Nem értek egyet</string>
+    <string name="mapbox_attributionTelemetryNeutral">Több infó</string>
+    <string name="mapbox_attributionTelemetryPositive">Egyetértek</string>
+    <string name="mapbox_attributionTelemetryTitle">Tedd jobbá a Mapbox térképeket</string>
+    <string name="mapbox_attributionsDialogTitle">Mapbox Android SDK</string>
+    <string name="mapbox_mapActionDescription">Egy Mapbox-szal készült térkép megjelenítése. Húzd két ujjadat a görgetéshez. Csippentsd össze a nagyításhoz.</string>
+    <string name="mapbox_myLocationViewContentDescription">Hely nézet. Megmutatja, hol vagy a térképen.</string>
+    <string name="mapbox_offline_error_region_definition_invalid">A megadott OfflineRegionDefinition nem fér bele a világ kereteibe: %s</string>
     <string msgid="146198913615257606" name="search_menu_title">"Keresés"</string>
     <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

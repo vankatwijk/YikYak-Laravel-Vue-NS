@@ -35,54 +35,54 @@ public final class R {
         public static final int majorTicksLength = 0x7f03017d;
         public static final int majorTicksStrokeColor = 0x7f03017e;
         public static final int majorTicksWidth = 0x7f03017f;
-        public static final int maximum = 0x7f030186;
-        public static final int minimum = 0x7f03018a;
-        public static final int minorTicksCount = 0x7f03018b;
-        public static final int minorTicksFillColor = 0x7f03018c;
-        public static final int minorTicksLength = 0x7f03018d;
-        public static final int minorTicksStrokeColor = 0x7f03018e;
-        public static final int minorTicksWidth = 0x7f03018f;
-        public static final int offset = 0x7f030196;
-        public static final int radius = 0x7f0301bc;
-        public static final int startAngle = 0x7f0301f4;
-        public static final int strokeColor = 0x7f0301fd;
-        public static final int strokeWidthF = 0x7f0301ff;
-        public static final int subtitleHorizontalOffset = 0x7f030203;
-        public static final int subtitleVerticalOffset = 0x7f030207;
-        public static final int sweepAngle = 0x7f030209;
-        public static final int ticksLayoutMode = 0x7f03024c;
-        public static final int ticksOffset = 0x7f03024d;
-        public static final int ticksVisible = 0x7f03024e;
-        public static final int titleHorizontalOffset = 0x7f030253;
-        public static final int titleVerticalOffset = 0x7f03025d;
-        public static final int topWidth = 0x7f030265;
-        public static final int value = 0x7f03026b;
+        public static final int maximum = 0x7f0301d6;
+        public static final int minimum = 0x7f0301da;
+        public static final int minorTicksCount = 0x7f0301db;
+        public static final int minorTicksFillColor = 0x7f0301dc;
+        public static final int minorTicksLength = 0x7f0301dd;
+        public static final int minorTicksStrokeColor = 0x7f0301de;
+        public static final int minorTicksWidth = 0x7f0301df;
+        public static final int offset = 0x7f0301e6;
+        public static final int radius = 0x7f03020c;
+        public static final int startAngle = 0x7f030244;
+        public static final int strokeColor = 0x7f03024d;
+        public static final int strokeWidthF = 0x7f03024f;
+        public static final int subtitleHorizontalOffset = 0x7f030253;
+        public static final int subtitleVerticalOffset = 0x7f030257;
+        public static final int sweepAngle = 0x7f030259;
+        public static final int ticksLayoutMode = 0x7f03029c;
+        public static final int ticksOffset = 0x7f03029d;
+        public static final int ticksVisible = 0x7f03029e;
+        public static final int titleHorizontalOffset = 0x7f0302a3;
+        public static final int titleVerticalOffset = 0x7f0302ad;
+        public static final int topWidth = 0x7f0302b5;
+        public static final int value = 0x7f0302bb;
     }
     public static final class id {
         private id() {}
 
-        public static final int edge = 0x7f080093;
-        public static final int inner = 0x7f0800bd;
-        public static final int outer = 0x7f0800e7;
-        public static final int round = 0x7f0800f7;
+        public static final int edge = 0x7f080095;
+        public static final int inner = 0x7f0800c1;
+        public static final int outer = 0x7f0800ed;
+        public static final int round = 0x7f0800fd;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] GaugeBarIndicator = { 0x7f030040, 0x7f03007a, 0x7f030174, 0x7f030186, 0x7f03018a };
+        public static final int[] GaugeBarIndicator = { 0x7f030040, 0x7f03007a, 0x7f030174, 0x7f0301d6, 0x7f0301da };
         public static final int GaugeBarIndicator_animationStartValue = 0;
         public static final int GaugeBarIndicator_cap = 1;
         public static final int GaugeBarIndicator_location = 2;
         public static final int GaugeBarIndicator_maximum = 3;
         public static final int GaugeBarIndicator_minimum = 4;
-        public static final int[] GaugeIndicator = { 0x7f03003e, 0x7f03003f, 0x7f030103, 0x7f0301fd, 0x7f0301ff };
+        public static final int[] GaugeIndicator = { 0x7f03003e, 0x7f03003f, 0x7f030103, 0x7f03024d, 0x7f03024f };
         public static final int GaugeIndicator_animated = 0;
         public static final int GaugeIndicator_animationDuration = 1;
         public static final int GaugeIndicator_fillColor = 2;
         public static final int GaugeIndicator_strokeColor = 3;
         public static final int GaugeIndicator_strokeWidthF = 4;
         public static final int[] GaugeRadialBarIndicator = {  };
-        public static final int[] GaugeRadialNeedle = { 0x7f030040, 0x7f030061, 0x7f03009c, 0x7f03009d, 0x7f03009e, 0x7f03009f, 0x7f030162, 0x7f030196, 0x7f030265, 0x7f03026b };
+        public static final int[] GaugeRadialNeedle = { 0x7f030040, 0x7f030061, 0x7f03009c, 0x7f03009d, 0x7f03009e, 0x7f03009f, 0x7f030162, 0x7f0301e6, 0x7f0302b5, 0x7f0302bb };
         public static final int GaugeRadialNeedle_animationStartValue = 0;
         public static final int GaugeRadialNeedle_bottomWidth = 1;
         public static final int GaugeRadialNeedle_circleFillColor = 2;
@@ -93,11 +93,11 @@ public final class R {
         public static final int GaugeRadialNeedle_offset = 7;
         public static final int GaugeRadialNeedle_topWidth = 8;
         public static final int GaugeRadialNeedle_value = 9;
-        public static final int[] GaugeRadialScale = { 0x7f0301bc, 0x7f0301f4, 0x7f030209 };
+        public static final int[] GaugeRadialScale = { 0x7f03020c, 0x7f030244, 0x7f030259 };
         public static final int GaugeRadialScale_radius = 0;
         public static final int GaugeRadialScale_startAngle = 1;
         public static final int GaugeRadialScale_sweepAngle = 2;
-        public static final int[] GaugeScale = { 0x7f030103, 0x7f030150, 0x7f030151, 0x7f030152, 0x7f030153, 0x7f030154, 0x7f030168, 0x7f03017b, 0x7f03017c, 0x7f03017d, 0x7f03017e, 0x7f03017f, 0x7f030186, 0x7f03018a, 0x7f03018b, 0x7f03018c, 0x7f03018d, 0x7f03018e, 0x7f03018f, 0x7f0301fd, 0x7f0301ff, 0x7f03024c, 0x7f03024d, 0x7f03024e };
+        public static final int[] GaugeScale = { 0x7f030103, 0x7f030150, 0x7f030151, 0x7f030152, 0x7f030153, 0x7f030154, 0x7f030168, 0x7f03017b, 0x7f03017c, 0x7f03017d, 0x7f03017e, 0x7f03017f, 0x7f0301d6, 0x7f0301da, 0x7f0301db, 0x7f0301dc, 0x7f0301dd, 0x7f0301de, 0x7f0301df, 0x7f03024d, 0x7f03024f, 0x7f03029c, 0x7f03029d, 0x7f03029e };
         public static final int GaugeScale_fillColor = 0;
         public static final int GaugeScale_labelsColor = 1;
         public static final int GaugeScale_labelsCount = 2;
@@ -122,7 +122,7 @@ public final class R {
         public static final int GaugeScale_ticksLayoutMode = 21;
         public static final int GaugeScale_ticksOffset = 22;
         public static final int GaugeScale_ticksVisible = 23;
-        public static final int[] RadGaugeView = { 0x7f030103, 0x7f030203, 0x7f030207, 0x7f030253, 0x7f03025d };
+        public static final int[] RadGaugeView = { 0x7f030103, 0x7f030253, 0x7f030257, 0x7f0302a3, 0x7f0302ad };
         public static final int RadGaugeView_fillColor = 0;
         public static final int RadGaugeView_subtitleHorizontalOffset = 1;
         public static final int RadGaugeView_subtitleVerticalOffset = 2;
