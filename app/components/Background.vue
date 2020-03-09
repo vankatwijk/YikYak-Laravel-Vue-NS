@@ -107,7 +107,10 @@
     const httpModule = require("http");
     const appSettings = require("tns-core-modules/application-settings");
     import * as Geolocation from 'nativescript-geolocation';
+    require ("nativescript-local-notifications");
+    import { LocalNotifications } from "nativescript-local-notifications";
 
+    LocalNotifications.hasPermission();
     var utils = require("tns-core-modules/utils/utils");
 
 

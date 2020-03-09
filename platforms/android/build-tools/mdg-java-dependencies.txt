@@ -57,6 +57,7 @@
 /home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/build/exploded-dependencies/db3fbe3ed8b219a13a9f7a6450c9cf20/classes.jar
 /home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/build/exploded-dependencies/ac7629b8450791194538248db9a15eed/classes.jar
 /home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/build/exploded-dependencies/2ba0caf8046d42ba25836a54947aea1c/classes.jar
+/home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/build/exploded-dependencies/69d5d98550164c270dac280ca4890e0a/classes.jar
 /home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/build/exploded-dependencies/b70ad79e0f120e95bb051852c69a99f5/classes.jar
 /home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/build/exploded-dependencies/5b193553263e2538102bf1acbcd74a36/classes.jar
 /home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/build/exploded-dependencies/3de044d79256ab285f7e0811c257c8f6/classes.jar
@@ -94,3 +95,4 @@
 /home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/build/exploded-dependencies/2a6bce625305244d0e8a1d885eb37aa9/logging-interceptor-3.10.0.jar
 /home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/build/exploded-dependencies/31ce1bfe514bb6c5734f417c029c3978/classes.jar
 /home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/build/exploded-dependencies/870613addf97f4a46d9e5e6ad6e9d0ec/classes.jar
+/home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/build/intermediates/javac/debug

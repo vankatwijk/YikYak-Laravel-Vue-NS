@@ -27,6 +27,10 @@
                 </StackLayout>
                 <StackLayout height="80%"></StackLayout>
                 <StackLayout class="">
+                    <Label text="Background" paddingLeft="30%" color="black"
+                        class="drawerItemText font-awesome" margin="10" @tap="backgroundTap"/>
+                </StackLayout>
+                <StackLayout class="">
                     <Label text="  Log out" paddingLeft="30%" color="black"
                         class="drawerItemText font-awesome" margin="10" @tap="logout"/>
                 </StackLayout>
@@ -100,6 +104,7 @@
 </template>
 <script>
     //get external pages and plugins
+    import Background from "./Background";
     import Login from "./Login";
     import Post from "./Post";
     import NoteDetails from "./NoteDetails";
@@ -232,7 +237,13 @@
                     clearHistory: true
                 });
             },
+            backgroundTap() {
+                this.$navigateTo(Background, {
+                    clearHistory: true
+                });
+            },
             logout() {
+                appSettings.remove('userToken');
                 //logout of the current user
                 this.$navigateTo(Login, {
                     clearHistory: true

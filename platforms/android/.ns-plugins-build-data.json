@@ -1,8 +1,8 @@
 {
 	"kinvey-nativescript-sdk": {
 		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/kinvey-nativescript-sdk/platforms/android/AndroidManifest.default.xml": "cce475b64081265624987342c6d91c2a891a49dc",
-		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/kinvey-nativescript-sdk/platforms/android/AndroidManifest.mic.xml": "e737daf7c176fccaaef98265e11610e876b4a328",
 		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/kinvey-nativescript-sdk/platforms/android/AndroidManifest.xml": "cce475b64081265624987342c6d91c2a891a49dc",
+		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/kinvey-nativescript-sdk/platforms/android/AndroidManifest.mic.xml": "e737daf7c176fccaaef98265e11610e876b4a328",
 		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/kinvey-nativescript-sdk/platforms/android/include.gradle": "0c9b3c2cbdf0c2e5b325310744bdc30a7dd8e7aa",
 		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/kinvey-nativescript-sdk/platforms/android/kinvey_nativescript_sdk.aar": "13f514c18c4a42608666d44cd567cfd13b4211fe"
 	},
@@ -24,6 +24,9 @@
 		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-imagepicker/platforms/android/README.md": "45f2f63427be0a461a7e2dfd5ff0ad5bab64068f",
 		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-imagepicker/platforms/android/nativescript_imagepicker.aar": "90efff56ef584bda767622569467189cf5c1f236"
 	},
+	"nativescript-local-notifications": {
+		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-local-notifications/platforms/android/app-release.aar": "29156cadd163055fc6aea04f40754f1f291f2a90"
+	},
 	"nativescript-mapbox": {
 		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-mapbox/platforms/android/include.gradle": "89df9af9f90f6d8b904a7b1418de9c1affafe2d2",
 		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-mapbox/platforms/android/nativescript_mapbox.aar": "8d59ab98ebef095cc5de08346b814777e37957da"
@@ -33,12 +36,12 @@
 	},
 	"nativescript-ui-autocomplete": {
 		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-autocomplete/platforms/android/include.gradle": "f3cee71f7a1cfc3f567bb82cf49fe10a8cccd33a",
-		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-autocomplete/platforms/android/TNSAutoComplete-release.aar": "5568e7c9f027d196da613241dcbc3fcbcf5b8a05",
-		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-autocomplete/platforms/android/typings/autocomplete.d.ts": "b23552a4388a500700bd43f37f285c8f80cce042"
+		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-autocomplete/platforms/android/typings/autocomplete.d.ts": "b23552a4388a500700bd43f37f285c8f80cce042",
+		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-autocomplete/platforms/android/TNSAutoComplete-release.aar": "5568e7c9f027d196da613241dcbc3fcbcf5b8a05"
 	},
 	"nativescript-ui-calendar": {
-		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-calendar/platforms/android/TNSCalendar-release.aar": "3f4c4f7cf98e65d8a278b98835694a1997316420",
-		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-calendar/platforms/android/typings/calendar.d.ts": "31bf824396f956c7d699c50f72170ba00fdb5cd2"
+		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-calendar/platforms/android/typings/calendar.d.ts": "31bf824396f956c7d699c50f72170ba00fdb5cd2",
+		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-calendar/platforms/android/TNSCalendar-release.aar": "3f4c4f7cf98e65d8a278b98835694a1997316420"
 	},
 	"nativescript-ui-chart": {
 		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-chart/platforms/android/include.gradle": "b86fa9eafbccd8683d2c21aa1f83308a4bbacf68",
@@ -50,17 +53,17 @@
 		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-dataform/platforms/android/TNSDataForm-release.aar": "b4b959092dbae216ede7c75b506a2042839a2cef"
 	},
 	"nativescript-ui-gauge": {
-		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-gauge/platforms/android/TNSGauge-release.aar": "65fde05bd0d7846096e14f2dac0a02f91a873b7c",
-		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-gauge/platforms/android/typings/gauge.d.ts": "ae7cf8821f8c4e0d042b36e74ddadf7221d75797"
+		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-gauge/platforms/android/typings/gauge.d.ts": "ae7cf8821f8c4e0d042b36e74ddadf7221d75797",
+		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-gauge/platforms/android/TNSGauge-release.aar": "65fde05bd0d7846096e14f2dac0a02f91a873b7c"
 	},
 	"nativescript-ui-listview": {
+		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-listview/platforms/android/include.gradle": "47ffe675113a982585b2386750b2d4305b66b6ca",
 		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-listview/platforms/android/typings/listview.d.ts": "d3b76f21820076bdd93468055d6da69e9b41d98e",
-		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-listview/platforms/android/TNSListView-release.aar": "7d6beb6a454d6e59b38f1df1f2d33e86fb9d447f",
-		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-listview/platforms/android/include.gradle": "47ffe675113a982585b2386750b2d4305b66b6ca"
+		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-listview/platforms/android/TNSListView-release.aar": "7d6beb6a454d6e59b38f1df1f2d33e86fb9d447f"
 	},
 	"nativescript-ui-sidedrawer": {
-		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-sidedrawer/platforms/android/TNSSideDrawer-release.aar": "e6e4d527ff85743c270768018b9ea720ec5b9dda",
-		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-sidedrawer/platforms/android/typings/sidedrawer.d.ts": "8256a2295125597755fe6a6faee866b0750e65f2"
+		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-sidedrawer/platforms/android/typings/sidedrawer.d.ts": "8256a2295125597755fe6a6faee866b0750e65f2",
+		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/nativescript-ui-sidedrawer/platforms/android/TNSSideDrawer-release.aar": "e6e4d527ff85743c270768018b9ea720ec5b9dda"
 	},
 	"tns-core-modules-widgets": {
 		"/home/hkatwijk/repo/LoNote/LoNoTE app/node_modules/tns-core-modules/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar": "0746721bed98e833a85c066a1994200dd8dd111b"

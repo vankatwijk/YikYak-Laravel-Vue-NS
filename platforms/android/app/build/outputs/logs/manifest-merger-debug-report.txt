@@ -31,6 +31,7 @@ MERGED from [:uploadservice-release:] /home/hkatwijk/.gradle/caches/transforms-2
 MERGED from [:nativescript_camera:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/1c2d461cfd469af6e4ed84222eecf525/jetified-nativescript_camera/AndroidManifest.xml:2:1-25:12
 MERGED from [:nativescript_geolocation:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/5fe4cd9174197e1aab5cb9e6d11eba8b/nativescript_geolocation/AndroidManifest.xml:2:1-11:12
 MERGED from [:nativescript_imagepicker:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/0da0df73a0a973bcee4463ec5dcf36f8/nativescript_imagepicker/AndroidManifest.xml:2:1-11:12
+MERGED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:2:1-36:12
 MERGED from [:nativescript_mapbox:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/a07ddc283f480704f41b82cfb9d4fa47/nativescript_mapbox/AndroidManifest.xml:2:1-16:12
 MERGED from [:nativescript_social_share:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/fe8b6d3c07dca4a89758a3ef48b66e58/jetified-nativescript_social_share/AndroidManifest.xml:2:1-21:12
 MERGED from [:TNSAutoComplete-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/ce38b300a199467da3a6c6250663d86f/TNSAutoComplete-release/AndroidManifest.xml:2:1-11:12
@@ -169,6 +170,8 @@ MERGED from [:nativescript_geolocation:] /home/hkatwijk/.gradle/caches/transform
 MERGED from [:nativescript_geolocation:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/5fe4cd9174197e1aab5cb9e6d11eba8b/nativescript_geolocation/AndroidManifest.xml:7:5-47
 MERGED from [:nativescript_imagepicker:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/0da0df73a0a973bcee4463ec5dcf36f8/nativescript_imagepicker/AndroidManifest.xml:7:5-47
 MERGED from [:nativescript_imagepicker:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/0da0df73a0a973bcee4463ec5dcf36f8/nativescript_imagepicker/AndroidManifest.xml:7:5-47
+MERGED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:7:5-9:41
 MERGED from [:nativescript_mapbox:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/a07ddc283f480704f41b82cfb9d4fa47/nativescript_mapbox/AndroidManifest.xml:7:5-47
 MERGED from [:nativescript_mapbox:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/a07ddc283f480704f41b82cfb9d4fa47/nativescript_mapbox/AndroidManifest.xml:7:5-47
 MERGED from [:nativescript_social_share:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/fe8b6d3c07dca4a89758a3ef48b66e58/jetified-nativescript_social_share/AndroidManifest.xml:7:5-47
@@ -317,6 +320,8 @@ MERGED from [:uploadservice-release:] /home/hkatwijk/.gradle/caches/transforms-2
 		ADDED from /home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:8:22-78
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
 ADDED from /home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:9:5-81
+MERGED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:11:5-81
+MERGED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:11:5-81
 	android:name
 		ADDED from /home/hkatwijk/repo/LoNote/LoNoTE app/platforms/android/app/src/main/AndroidManifest.xml:9:22-78
 application
@@ -339,6 +344,8 @@ MERGED from [:uploadservice-release:] /home/hkatwijk/.gradle/caches/transforms-2
 MERGED from [:uploadservice-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:17:5-23:19
 MERGED from [:nativescript_camera:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/1c2d461cfd469af6e4ed84222eecf525/jetified-nativescript_camera/AndroidManifest.xml:12:5-23:19
 MERGED from [:nativescript_camera:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/1c2d461cfd469af6e4ed84222eecf525/jetified-nativescript_camera/AndroidManifest.xml:12:5-23:19
+MERGED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:14:5-34:19
+MERGED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:14:5-34:19
 MERGED from [:nativescript_mapbox:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/a07ddc283f480704f41b82cfb9d4fa47/nativescript_mapbox/AndroidManifest.xml:12:5-14:19
 MERGED from [:nativescript_mapbox:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/a07ddc283f480704f41b82cfb9d4fa47/nativescript_mapbox/AndroidManifest.xml:12:5-14:19
 MERGED from [:nativescript_social_share:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/fe8b6d3c07dca4a89758a3ef48b66e58/jetified-nativescript_social_share/AndroidManifest.xml:9:5-19:19
@@ -505,6 +512,8 @@ ADDED from [com.google.android.gms:play-services-basement:11.4.0] /home/hkatwijk
 		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b11eb071ba4a94764bc0893044bea3d2/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:20-65
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [:uploadservice-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:14:5-68
+MERGED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:12:5-68
+MERGED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:12:5-68
 	android:name
 		ADDED from [:uploadservice-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/28d0d3bafab07b98cea40f655c075ca0/uploadservice-release/AndroidManifest.xml:14:22-65
 uses-permission#android.permission.FOREGROUND_SERVICE
@@ -546,6 +555,42 @@ MERGED from [:nativescript_social_share:] /home/hkatwijk/.gradle/caches/transfor
 		ADDED from [:nativescript_camera:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/1c2d461cfd469af6e4ed84222eecf525/jetified-nativescript_camera/AndroidManifest.xml:21:17-49
 	android:name
 		ADDED from [:nativescript_camera:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/1c2d461cfd469af6e4ed84222eecf525/jetified-nativescript_camera/AndroidManifest.xml:19:17-67
+service#com.telerik.localnotifications.NotificationActionReceiver
+ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:16:13-85
+receiver#com.telerik.localnotifications.NotificationClearedReceiver
+ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:20:13-86
+receiver#com.telerik.localnotifications.NotificationAlarmReceiver
+ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:23:13-84
+receiver#com.telerik.localnotifications.NotificationRestoreReceiver
+ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:25:9-33:20
+	android:exported
+		ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:26:13-86
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:29:13-32:29
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:30:17-86
+	android:name
+		ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:30:25-83
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:31:17-79
+	android:name
+		ADDED from [:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:31:25-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from [:nativescript_mapbox:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/a07ddc283f480704f41b82cfb9d4fa47/nativescript_mapbox/AndroidManifest.xml:9:5-81
 	android:name

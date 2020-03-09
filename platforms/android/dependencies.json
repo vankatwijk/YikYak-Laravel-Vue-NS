@@ -48,6 +48,10 @@
         "directory": "../../node_modules/nativescript-iqkeyboardmanager"
     },
     {
+        "name": "nativescript-local-notifications",
+        "directory": "../../node_modules/nativescript-local-notifications"
+    },
+    {
         "name": "nativescript-mapbox",
         "directory": "../../node_modules/nativescript-mapbox"
     },

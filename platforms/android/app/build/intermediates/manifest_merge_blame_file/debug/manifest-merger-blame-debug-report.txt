@@ -215,20 +215,58 @@
 110-->[:nativescript_camera:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/1c2d461cfd469af6e4ed84222eecf525/jetified-nativescript_camera/AndroidManifest.xml:20:17-55
 111        </provider>
 112
-113        <service android:name="com.mapbox.services.android.telemetry.service.TelemetryService" />
-113-->[:nativescript_mapbox:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/a07ddc283f480704f41b82cfb9d4fa47/nativescript_mapbox/AndroidManifest.xml:13:9-98
-113-->[:nativescript_mapbox:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/a07ddc283f480704f41b82cfb9d4fa47/nativescript_mapbox/AndroidManifest.xml:13:18-95
-114
-115        <provider
-115-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/dc17a08f18139864612539818c0e9b1d/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
-116            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-116-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/dc17a08f18139864612539818c0e9b1d/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
-117            android:authorities="org.nativescript.playvue.lifecycle-process"
-117-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/dc17a08f18139864612539818c0e9b1d/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
-118            android:exported="false"
-118-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/dc17a08f18139864612539818c0e9b1d/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
-119            android:multiprocess="true" />
-119-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/dc17a08f18139864612539818c0e9b1d/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
-120    </application>
-121
-122</manifest>
+113        <service
+113-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:15:9-17:40
+114            android:name="com.telerik.localnotifications.NotificationActionReceiver"
+114-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:16:13-85
+115            android:exported="false" />
+115-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:17:13-37
+116
+117        <receiver
+117-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:19:9-21:40
+118            android:name="com.telerik.localnotifications.NotificationClearedReceiver"
+118-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:20:13-86
+119            android:exported="false" />
+119-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:21:13-37
+120        <receiver
+120-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:22:9-24:40
+121            android:name="com.telerik.localnotifications.NotificationAlarmReceiver"
+121-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:23:13-84
+122            android:exported="false" />
+122-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:24:13-37
+123        <receiver
+123-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:25:9-33:20
+124            android:name="com.telerik.localnotifications.NotificationRestoreReceiver"
+124-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:26:13-86
+125            android:directBootAware="true"
+125-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:27:13-43
+126            android:exported="false" >
+126-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:28:13-37
+127            <intent-filter>
+127-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:29:13-32:29
+128                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+128-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:30:17-86
+128-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:30:25-83
+129                <action android:name="android.intent.action.BOOT_COMPLETED" />
+129-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:31:17-79
+129-->[:app-release:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/b920bb46b26e1e1b58ea7a5722270d02/app-release/AndroidManifest.xml:31:25-76
+130            </intent-filter>
+131        </receiver>
+132
+133        <service android:name="com.mapbox.services.android.telemetry.service.TelemetryService" />
+133-->[:nativescript_mapbox:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/a07ddc283f480704f41b82cfb9d4fa47/nativescript_mapbox/AndroidManifest.xml:13:9-98
+133-->[:nativescript_mapbox:] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/a07ddc283f480704f41b82cfb9d4fa47/nativescript_mapbox/AndroidManifest.xml:13:18-95
+134
+135        <provider
+135-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/dc17a08f18139864612539818c0e9b1d/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+136            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+136-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/dc17a08f18139864612539818c0e9b1d/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+137            android:authorities="org.nativescript.playvue.lifecycle-process"
+137-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/dc17a08f18139864612539818c0e9b1d/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+138            android:exported="false"
+138-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/dc17a08f18139864612539818c0e9b1d/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+139            android:multiprocess="true" />
+139-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/hkatwijk/.gradle/caches/transforms-2/files-2.1/dc17a08f18139864612539818c0e9b1d/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+140    </application>
+141
+142</manifest>

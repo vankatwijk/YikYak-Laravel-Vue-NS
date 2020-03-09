@@ -272,6 +272,7 @@
             },
             logout() {
                 //logout resetiing the selected note variable
+                appSettings.remove('userToken');
                 appSettings.setNumber('selectedNote',0);
                 this.$navigateTo(Login, {
                     clearHistory: true

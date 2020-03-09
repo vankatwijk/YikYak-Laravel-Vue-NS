@@ -99,6 +99,13 @@
         },
         methods: {
             onStart(){
+                var token = appSettings.getString('userToken');
+                if(token === undefined){
+                }else{
+                    if(token.length > 0){
+                        this.$navigateTo(Home, { clearHistory: true });
+                    }
+                }
             },
 
             changeAPI(){

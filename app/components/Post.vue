@@ -177,7 +177,7 @@
                         this.noteBody = '';
                         alert('note added to location');
                     }else{
-                        alert('Something has gone wrong');
+                        alert('Something has gone wrong'+ response.statusCode);
                     }
 
                 }, error => {
@@ -209,6 +209,7 @@
                 });
             },
             logout() {
+                appSettings.remove('userToken');
                 // logout of the current user
                 this.$navigateTo(Login, {
                     clearHistory: true
