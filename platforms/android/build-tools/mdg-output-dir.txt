@@ -1,1 +1,0 @@
-/home/hendrikus/Repo/LoNoTE app/platforms/android/app/src/main/assets/metadata
