@@ -176,6 +176,9 @@
 
             },
             scheduleJob() {
+
+                //schedule a background job every 15mins
+                
                 const context = utils.ad.getApplicationContext();
                 const component = new android.content.ComponentName(context, com.tns.components.notifications.MyJobService.class);
                 console.log(component)

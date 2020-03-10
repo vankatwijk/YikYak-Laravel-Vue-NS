@@ -42,7 +42,7 @@ android.app.job.JobService.extend("com.tns.components.notifications.MyJobService
 
 
                 //debuging show 
-                console.log(appURL+'/api/notes?lat='+this.location.latitude+'&lng='+this.location.longitude+'||'+userToken);
+                console.log(appURL+'/api/notes?lat='+this.location.latitude+'&lng='+this.location.longitude);
 
                 //send request to api server
                 httpModule.request({
@@ -56,6 +56,8 @@ android.app.job.JobService.extend("com.tns.components.notifications.MyJobService
                     var result = response.content.toJSON();
                     if(response){
 
+
+                        //create the notification with all the information you may need
                         LocalNotifications.schedule([{
                             id: 1, // generated id if not set
                             title: 'Hey !',
@@ -107,10 +109,11 @@ android.app.job.JobService.extend("com.tns.components.notifications.MyJobService
     },
    
     onStopJob() {
-     console.log("Stopping job ...");
+        console.log("Stopping job ...");
+        
+        //remove any scheduled notifications that were not sent out
+        LocalNotifications.cancelAll();
 
-     LocalNotifications.cancelAll();
-
-     return true; //returning true makes the task reschedule
+        return true; //returning true makes the task reschedule
     },
 });
