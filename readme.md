@@ -1,4 +1,4 @@
-# Nativescript Social Network for people in Sports
+# Nativescript Location based notes taking app
 
 ```
 #Pre-requirements
