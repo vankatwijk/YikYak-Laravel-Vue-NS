@@ -2,6 +2,7 @@
 
 ```
 #Pre-requirements
+-yikyak style app
 -android studio with android 9.0 sdk(this is needed for testing and building)
 -node with npm
 -nativescript (npm install -g nativescript)
