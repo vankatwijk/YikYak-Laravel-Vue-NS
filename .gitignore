@@ -1,13 +1,15 @@
 /node_modules
-/public/storage
-/public/hot
-/storage/*.key
-/vendor
+/Laravel API/node_modules
+/Yik App/node_modules
+/Laravel API/public/storage
+/Laravel API/public/hot
+/Laravel API/storage/*.key
+/Laravel API/vendor
 /.idea
-/platforms
-Homestead.json
-Homestead.yaml
-.env
-.DS_Store
-composer.lock
-yarn.lock
+/Laravel API/platforms
+/Laravel API/Homestead.json
+/Laravel API/Homestead.yaml
+/Laravel API/.env
+/Laravel API/.DS_Store
+/Laravel API/composer.lock
+/Laravel API/yarn.lock

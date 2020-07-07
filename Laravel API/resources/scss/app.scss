@@ -1,0 +1,29 @@
+// Variables
+@import 'variables';
+
+// Variables
+@import '../assets/vendor/bootswatch-darkly/variables';
+
+// Fontawesome
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+// Roboto Fonts
+@import '~roboto-fontface/css/roboto/sass/roboto-fontface';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '../assets/vendor/bootswatch-darkly/bootswatch';
+@import '~datatables.net-bs4/css/dataTables.bootstrap4';
+
+// Glyphicon font
+@import '../assets/fonts/vendor/glyphicons/glyphicon';
+
+// Notika font
+@import '../assets/fonts/vendor/notika/notika-custom-icon';
+
+// GDPR Platform generic
+@import 'platform.scss';
+
